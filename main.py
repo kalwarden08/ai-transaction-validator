@@ -46,7 +46,7 @@ MAX_UPLOAD_SIZE = 50 * 1024 * 1024  # 50MB
 @app.get("/")
 async def index(request: Request):
     """Render main page."""
-    return templates.TemplateResponse(name="index.html", context={"request": request})
+    return templates.TemplateResponse(request, "index.html", {"request": request})
 
 
 @app.post("/upload")
