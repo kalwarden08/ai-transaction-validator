@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Transaction Validator
 
 A production-ready web application for validating transaction data with comprehensive validation rules and configurable settings.
@@ -339,3 +340,7 @@ For issues or questions, please check:
 
 **Version**: 1.0.0
 **Last Updated**: 2024
+=======
+# ai-transaction-validator
+AI Transaction Validator is a FastAPI-based web application for validating and processing transaction datasets. It performs country-specific phone validation, date/time and payment checks, detects data quality issues, generates cleaned CSV outputs, and automatically splits large files for efficient processing.
+>>>>>>> c44c21dd5901ef1c421c0813432c1c66d9724e2c
